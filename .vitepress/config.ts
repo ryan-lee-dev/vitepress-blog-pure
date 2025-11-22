@@ -9,6 +9,9 @@ const isProd = process.env.NODE_ENV === 'production'
 export default defineConfig({
     title: 'Ryan\'s Blog',
     base: '/blog',
+    head: [
+        ['link', { rel: 'icon', type: 'image/x-icon', href: '/blog/favicon.ico' }]
+    ],
     cacheDir: './node_modules/vitepress_cache',
     description: 'vitepress,blog,blog-theme',
     ignoreDeadLinks: true,
@@ -36,16 +39,16 @@ export default defineConfig({
         outline: {
             label: '文章摘要'
         },
-        socialLinks: [{ icon: 'github', link: 'https://github.com/airene/vitepress-blog-pure' }]
+        socialLinks: [{ icon: 'github', link: 'https://github.com/ryan-lee-dev' }]
     } as any,
 
     srcExclude: isProd
         ? [
-              '**/trash/**/*.md', // 排除所有 trash 目录
-              '**/draft/**/*.md', // 递归排除子目录
-              '**/private-notes/*.md', // 排除特定文件
-              'README.md'
-          ]
+            '**/trash/**/*.md', // 排除所有 trash 目录
+            '**/draft/**/*.md', // 递归排除子目录
+            '**/private-notes/*.md', // 排除特定文件
+            'README.md'
+        ]
         : ['README.md'],
     vite: {
         //build: { minify: false }
