@@ -8,7 +8,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 export default defineConfig({
     title: 'Ryan\'s Blog',
-    base: '/blog',
+    base: '/',
     head: [
         ['link', { rel: 'icon', type: 'image/x-icon', href: '/blog/favicon.ico' }]
     ],
