@@ -10,7 +10,7 @@ export default defineConfig({
     title: 'Ryan\'s Blog',
     base: '/',
     head: [
-        ['link', { rel: 'icon', type: 'image/x-icon', href: '/blog/favicon.ico' }]
+        ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     ],
     cacheDir: './node_modules/vitepress_cache',
     description: 'vitepress,blog,blog-theme',
