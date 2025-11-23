@@ -1,10 +1,10 @@
 <template>
     <div class="site-footer">
-        MIT Licensed | Copyright © 2025 <a class="vitepress" :href="website">{{ webTitle }}</a><br />
+        Copyright © 2025 <a class="vitepress" :href="website">{{ webTitle }}</a> | <span id="busuanzi_container_site_pv">Viewed: <span id="busuanzi_value_site_pv"></span></span><br />
         Powered by <a class="vitepress" target="_blank" href="//vitepress.vuejs.org/">VitePress</a>
-        Theme by <a class="vitepress" target="_blank" href="//github.com/airene/vitepress-blog-pure">Vitepress-blog</a>
+        And  <a class="vitepress" target="_blank" href="//github.com/airene/vitepress-blog-pure">Vitepress-blog</a><br />
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9af526794ac6469ca82aa59c961b0c0b"}'></script><!-- End Cloudflare Web Analytics -->
     </div>
-    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4e0c7d8126d24920be73cedf01c5676e"}'></script><!-- End Cloudflare Web Analytics -->
 </template>
 <script lang="ts" setup>
 import { useData } from 'vitepress'
