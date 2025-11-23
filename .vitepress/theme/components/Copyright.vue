@@ -1,8 +1,9 @@
 <template>
+    <script src="//cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js" defer></script>
     <div class="site-footer">
-        Copyright © 2025 <a class="vitepress" :href="website">{{ webTitle }}</a> | <span id="busuanzi_container_site_pv">Viewed: <span id="busuanzi_value_site_pv"></span></span><br />
+        Copyright © 2025 <a class="vitepress" :href="website">{{ webTitle }}</a> | Viewed: <span id="busuanzi_site_pv">-1</span> <br />
         Powered by <a class="vitepress" target="_blank" href="//vitepress.vuejs.org/">VitePress</a>
-        And  <a class="vitepress" target="_blank" href="//github.com/airene/vitepress-blog-pure">Vitepress-blog</a><br />
+        Theme by <a class="vitepress" target="_blank" href="//github.com/airene/vitepress-blog-pure">Vitepress-blog</a>
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9af526794ac6469ca82aa59c961b0c0b"}'></script><!-- End Cloudflare Web Analytics -->
     </div>
 </template>
