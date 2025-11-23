@@ -4,6 +4,7 @@
         Powered by <a class="vitepress" target="_blank" href="//vitepress.vuejs.org/">VitePress</a>
         Theme by <a class="vitepress" target="_blank" href="//github.com/airene/vitepress-blog-pure">Vitepress-blog</a>
     </div>
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "4e0c7d8126d24920be73cedf01c5676e"}'></script><!-- End Cloudflare Web Analytics -->
 </template>
 <script lang="ts" setup>
 import { useData } from 'vitepress'
