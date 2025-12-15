@@ -19,6 +19,8 @@ comment: true
 ### Linux开发
 
 <p>
+  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white" alt="C" style="display: inline-block;" />&nbsp;
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?logo=c%2B%2B&logoColor=white" alt="C++" style="display: inline-block;" />&nbsp;
   <img src="https://img.shields.io/badge/-Go-DCDCDC?logo=Go&logoColor=00ADD8" alt="Go" style="display: inline-block;" />&nbsp;
   <img src="https://img.shields.io/badge/-Python-A9A9A9?logo=Python&logoColor=3776AB" alt="Python" style="display: inline-block;" />&nbsp;
   <img src="https://img.shields.io/badge/-PostgreSQL-C0C0C0?logo=PostgreSQL&logoColor=4169E1" alt="PostgreSQL" style="display: inline-block;" />&nbsp;
